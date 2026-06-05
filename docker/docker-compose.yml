@@ -1,0 +1,7 @@
+version: '3.8'
+services:
+  app:
+    image: alpine
+    command: ["/bin/sh", "-c", "echo 'Placeholder docker-compose'"]
+    volumes:
+      - ./docker/volumes:/data
